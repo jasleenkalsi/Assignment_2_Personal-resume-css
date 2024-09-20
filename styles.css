@@ -1,36 +1,98 @@
-/* Apply Flexbox to structure layout */
 body {
+    font-family: 'Roboto', Arial, sans-serif; /* Set Roboto as the primary font with Arial fallback */
+    color: #2c3e50;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  header, footer {
+    font-size: 16px; /* Set default font size for better readability */
+    line-height: 1.6; /* Improve readability with better line spacing */
+}
+
+/* Header Styles */
+header {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 20px;
-  }
-  
-  header {
     flex: 0 1 auto;
-  }
-  
-  main {
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em; /* Add size to the header */
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f0f0f0; /* Slight color change on hover */
+}
+
+/* Main Content Styling */
+main {
     flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-  
-  section {
+}
+
+/* Section Styling */
+section {
     padding: 20px;
     margin: 10px;
     background-color: #f0f0f0;
-  }
-  
-  footer {
+    border-radius: 8px;
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Text */
+p, ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
     flex: 0 1 auto;
-  }
+}
+
+footer p {
+    margin: 0;
+}
+
   
