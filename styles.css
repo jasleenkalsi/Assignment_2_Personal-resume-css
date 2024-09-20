@@ -45,10 +45,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #f0f0f0; /* Slight color change on hover */
+    color: #f0f0f0;
 }
 
-/* Main Content Styling */
 main {
     flex: 1;
     padding: 20px;
@@ -74,7 +73,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Paragraph Text */
+
 p, ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -82,7 +81,7 @@ p, ul {
     line-height: 1.8;
 }
 
-/* Footer Styling */
+
 footer {
     background-color: #2c3e50;
     color: white;
