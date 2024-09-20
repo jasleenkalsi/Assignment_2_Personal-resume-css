@@ -6,8 +6,8 @@
 - **Accent Colour**: #2c3e50 (Navy Blue)
 
 ## Typography
-- **Headings**: Poppins, sans-serif
-- **Body Text**: Roboto, sans-serif
+- **Headings**:  sans-serif
+- **Body Text**: sans-serif
 
 ## Layout
 - Clean and simple design with a focus on readability and responsiveness.
